@@ -51,6 +51,22 @@ html {
   -ms-overflow-style: scrollbar;
   -webkit-tap-highlight-color: transparent; }
 
+  .arrow {
+    animation: slide1 1s ease-in-out infinite;
+    margin-left: 333px;
+  }
+
+  @keyframes slide1 {
+    0%,
+    100% {
+      transform: translate(0, 0);
+    }
+  
+    50% {
+      transform: translate(0, 10px);
+    }
+  }
+
 @-ms-viewport {
   width: device-width; }
 
@@ -79,6 +95,18 @@ hr {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 1rem; }
+
+h1.home-title {
+  font-size: calc(0.75em + 6vmin);
+}
+
+h2.home-testmonials {
+  font-size: calc(0.75em + 3vmin);
+}
+
+h2.home-portfolio {
+  font-size: calc(0.75em + 3vmin);
+}
 
 p {
   margin-top: 0;
@@ -3377,8 +3405,9 @@ input[type="button"].btn-block {
 
 .card-img-top {
   width: 100%;
-  border-top-left-radius: calc(0.3rem - 0px);
-  border-top-right-radius: calc(0.3rem - 0px); }
+  /* border-top-left-radius: calc(0.3rem - 0px);
+  border-top-right-radius: calc(0.3rem - 0px);  */
+}
 
 .card-img-bottom {
   width: 100%;
