@@ -100,6 +100,14 @@ h1.home-title {
   font-size: calc(0.75em + 6vmin);
 }
 
+/* p.home-title-top {
+  font-size: calc(0.75em + 3vmin);
+}
+
+p.home-title-bottom {
+  font-size: calc(0.75em + 3vmin);
+} */
+
 h2.home-testmonials {
   font-size: calc(0.75em + 3vmin);
 }
@@ -3255,7 +3263,8 @@ input[type="button"].btn-block {
     -ms-flex-preferred-size: auto;
         flex-basis: auto; }
   .navbar-expand .navbar-toggler {
-    display: none; }
+    display: none;
+  }
 
 .navbar-light .navbar-brand {
   color: #1de9b6; }
