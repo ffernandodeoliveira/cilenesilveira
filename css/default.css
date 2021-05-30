@@ -7621,7 +7621,7 @@ body {
 
 .bg-hero {
   background-color: #000000;
-  background-image: url("../img/background-photo.jpg");
+  background-image: url("../img/background.jpg");
   background-attachment: fixed;
   background-size: cover;
   position: relative; } 
