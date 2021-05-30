@@ -7426,6 +7426,16 @@ Custom CSS
 *****************/
 body {
   border-color: #000000; 
+
+  /* background-image: url("../img/background.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; */
+  
+  /* SHORTHAND CSS NOTATION
+    * background: url(background-photo.jpg) center center cover no-repeat fixed;
+    */
 }
 
 .small-xl {
@@ -7611,11 +7621,10 @@ body {
 
 .bg-hero {
   background-color: #000000;
-  background-image: url("../img/background.jpg");
-  /* background by SVGBackgrounds.com */
+  background-image: url("../img/background-photo.jpg");
   background-attachment: fixed;
   background-size: cover;
-  position: relative; }
+  position: relative; } 
   .bg-hero:before {
     position: absolute;
     z-index: 1;
