@@ -100,13 +100,13 @@ h1.home-title {
   font-size: calc(0.75em + 6vmin);
 }
 
-/* p.home-title-top {
-  font-size: calc(0.75em + 3vmin);
+p.home-title-top {
+  font-size: calc(0.75em + 0.50vmin);
 }
 
 p.home-title-bottom {
-  font-size: calc(0.75em + 3vmin);
-} */
+  font-size: calc(0.75em + 1vmin);
+}
 
 h2.home-testmonials {
   font-size: calc(0.75em + 3vmin);
@@ -7889,3 +7889,7 @@ footer h5 {
 @media screen and (max-width: 768px) {
   .switcher-wrap {
     display: none; } }
+
+img.logo-img {
+  height: calc(0.75em + 4vmin);
+}
