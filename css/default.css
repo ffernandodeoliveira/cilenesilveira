@@ -7612,18 +7612,11 @@ a.text-dark:hover, a.text-dark:focus {
 
 .bg-hero {
   background-color: #000000;
-   /* background-image: url("../img/background.jpg");
-  background-attachment: fixed;
-  background-size: cover;
-  position: relative;   */
-
   background-image: url(../img/background.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover; 
-
-  /* background: url(../img/background.jpg) center center cover no-repeat fixed; */
 }
   .bg-hero:before {
     position: absolute;
